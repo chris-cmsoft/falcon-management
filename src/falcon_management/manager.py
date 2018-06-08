@@ -7,9 +7,9 @@ from .logger import error
 
 
 class CommandManager():
-    def __init__(self, commands: list = None):
+    def __init__(self, commands: dict = None):
         if not commands:
-            commands = list()
+            commands = dict()
         self.commands = commands
 
     def execute(self):

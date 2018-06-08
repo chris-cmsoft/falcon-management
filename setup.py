@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='falcon-management',
-    version='0.13',
+    version='0.14',
     description='Management Commands Python Library',
     long_description='Python library for simple management commands',
     long_description_content_type='text/markdown',

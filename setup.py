@@ -2,20 +2,10 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup, find_packages
-# To use a consistent encoding
-from codecs import open
-from os import path
-
-here = path.abspath(path.dirname(__file__))
-
-package_dir = path.abspath(path.dirname(__file__))
-version_file = path.join(package_dir, "version")
-with open(version_file) as version_file_handle:
-    version = version_file_handle.read()
 
 setup(
     name='falcon-management',
-    version=version,
+    version='0.13',
     description='Management Commands Python Library',
     long_description='Python library for simple management commands',
     long_description_content_type='text/markdown',

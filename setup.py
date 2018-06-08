@@ -19,7 +19,7 @@ setup(
     description='Management Commands Python Library',
     long_description='Python library for simple management commands',
     long_description_content_type='text/markdown',
-    url='https://github.com/chris-cmsoft/python-afrigis',
+    url='https://github.com/chris-cmsoft/falcon-management',
     author='Chris Vermeulen',
     author_email='chris@cmsoft.co.za',
 
@@ -50,7 +50,7 @@ setup(
     ],
 
     # Search Keywords
-    keywords='Python Afrigis Integration',  # Optional
+    keywords='Python Management CLI',  # Optional
     package_dir={"": "src"},
     packages=find_packages("src"),  # Required
 
@@ -66,7 +66,7 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
-        'Bug Reports': 'https://github.com/chris-cmsoft/python-afrigis/issues',
-        'Source': 'https://github.com/chris-cmsoft/python-afrigis/',
+        'Bug Reports': 'https://github.com/chris-cmsoft/falcon-management/issues',
+        'Source': 'https://github.com/chris-cmsoft/falcon-management/',
     },
 )
